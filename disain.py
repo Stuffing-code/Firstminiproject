@@ -26,7 +26,7 @@ class Ui_Dialog(object):
         self.label_2.setStyleSheet("color: white;\n"
 "font-size: 24px;\n"
 "font-weight: bolt;\n"
-"text-align: justify;")
+"text-align: left;")
         self.label_2.setObjectName("label_2")
         self.verticalLayout.addWidget(self.label_2)
         self.lineEdit = QtWidgets.QLineEdit(self.verticalLayoutWidget)
@@ -54,8 +54,9 @@ class Ui_Dialog(object):
         self.verticalLayout.addWidget(self.pushButton)
         self.label = QtWidgets.QLabel(self.verticalLayoutWidget)
         self.label.setStyleSheet("color: white;\n"
-"font-size: 24px;\n"
-"font-weight: bolt;")
+"font-size: 18px;\n"
+"font-weight: bolt;\n"
+"text-align: left;")
         self.label.setObjectName("label")
         self.verticalLayout.addWidget(self.label)
 
@@ -67,5 +68,5 @@ class Ui_Dialog(object):
         Dialog.setWindowTitle(_translate("Dialog", "Dialog"))
         self.label_2.setText(_translate("Dialog", "Введите день, месяц и время:"))
         self.pushButton.setText(_translate("Dialog", "Ok"))
-        self.label.setText(_translate("Dialog", "Осталось времени:"))
+        self.label.setText(_translate("Dialog", ""))
 
