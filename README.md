@@ -1,2 +1,0 @@
-# Firstminiproject
-test xD
