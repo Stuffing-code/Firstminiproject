@@ -4,10 +4,11 @@
 import time
 
 
-def rerun(x, y):
-    for _ in range(x):
-        time.sleep(y)
-        return (f"Slept for {y // 60} min {y % 60} second")
+def rerun(count, second):
+    for _ in range(count):
+        time.sleep(second)
+        return (f"Slept for {second // 60} "
+                f"min {second % 60} second")
 
 
 print(rerun(1, 3))
