@@ -1,17 +1,13 @@
 import datetime
 import time
 
-"""
-    функция промежуток между звонками с двумя повторениями
-
-    попытка все обернуть в класс
-"""
-class Povtor():
-    def rerun(self,x, y):
-        self.count = x
-        for _ in range(self.count):
-            time.sleep(y)
-            return (f"Slept for {y // 60} min {y % 60} second")
-
-
-print(datetime.datetime.today().strftime("%Y-%m-%d %H:%M:%S"))
+# .strftime("%Y-%m-%d %H:%M:%S")
+# a = datetime.datetime.now()
+# print(a.day, a.month, a.hour, a.minute)
+# #
+# n = input("Введите день, месяц и точное время будильника: ").split()
+# b = [a.day, a.month, a.hour, a.minute]
+# if int(n[0]) == a.day and int(n[1]) == a.month \
+#         and int(n[2]) == a.hour and int(n[3]) == a.minute:
+#     print("ALELUA")
+print(182 % 100)
