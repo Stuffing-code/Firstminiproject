@@ -51,7 +51,7 @@ while True:
             """
                 Цикл для увеличение времени проигрывания музыки
             """
-            for i in range(1):
+            for i in range(5):
                 playsound(sound)
             print(f"Будильник повториться через {int(time_repeat) * 60} секунд ")
             rerun(time_repeat, count_repeat)
