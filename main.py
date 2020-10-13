@@ -42,9 +42,9 @@ while True:
         if int(time_alarm[0]) == date_now.day and int(time_alarm[1]) == date_now.month \
                 and int(time_alarm[2]) == date_now.hour and int(time_alarm[3]) == date_now.minute:
             """
-                Цикл для увеличение времени проигрывания музыки
+                Цикл для увеличение времени проигрывания музыки до минуты
             """
-            for i in range(1):
+            for _ in range(5):
                 playsound(sound)
             print(f"Будильник повториться через {int(time_repeat) * 60} секунд ")
             rerun(time_repeat, count_repeat)
