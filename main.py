@@ -29,14 +29,13 @@ def rerun(repeat=5, count=1):
 
     for _ in range(count):
         time.sleep(repeat * 60)
-        for _ in range(5):
-            return playsound(sound)
+        sound_alarm()
 
 
 def sound_alarm():
     for _ in range(1):
         playsound(sound)
-
+        rerun()
 
 def OpenClick():
     day_need, moth_need, hour_need, minutes_need = ui.lineEdit.text(), ui.lineEdit_2.text(), \
