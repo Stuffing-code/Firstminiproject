@@ -1,22 +1,25 @@
 import sys
 from PyQt5 import QtCore, QtGui, QtWidgets
-from disain import Ui_Dialog
+from disain2 import Ui_TitileBudilnic
 
 # create app
 app = QtWidgets.QApplication(sys.argv)
 
 # init
-Dialog = QtWidgets.QDialog()
-ui = Ui_Dialog()
-ui.setupUi(Dialog)
-Dialog.show()
+
+TitileBudilnic = QtWidgets.QDialog()
+ui = Ui_TitileBudilnic()
+ui.setupUi(TitileBudilnic)
+TitileBudilnic.show()
+
 
 # Hook Logik
 def get_time():
-    time_now = ui.lineEdit.text().split()
-    ui.label.setText("Будильник установлен" +
-                     f" на {time_now[0]}.{time_now[1]}" +
-                     f" {time_now[2]}:{time_now[3]}")
+    day_need, moth_need, hour_need, minutes_need = ui.lineEdit.text(),\
+                                                   ui.lineEdit_2.text(), ui.lineEdit_3.text(), ui.lineEdit_4.text()
+    ui.label_5.setText(f"Alarm clock set {day_need}.{moth_need} {hour_need}:{minutes_need}")
+
+
 
 ui.pushButton.clicked.connect(get_time)
 # main loop
