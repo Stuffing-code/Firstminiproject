@@ -14,7 +14,7 @@ from PyQt5 import QtCore, QtGui, QtWidgets
 class Ui_TitileBudilnic(object):
     def setupUi(self, TitileBudilnic):
         TitileBudilnic.setObjectName("TitileBudilnic")
-        TitileBudilnic.resize(268, 473)
+        TitileBudilnic.resize(255, 471)
         TitileBudilnic.setAutoFillBackground(False)
         TitileBudilnic.setStyleSheet("background-color: #56a1cc;")
         TitileBudilnic.setSizeGripEnabled(False)
@@ -36,26 +36,6 @@ class Ui_TitileBudilnic(object):
         self.lineEdit_4 = QtWidgets.QLineEdit(self.horizontalLayoutWidget_3)
         self.lineEdit_4.setObjectName("lineEdit_4")
         self.horizontalLayout_3.addWidget(self.lineEdit_4)
-        self.lineEdit.raise_()
-        self.lineEdit.setStyleSheet("font-size: 14px;\n"
-"font-weight: bolt;\n"
-"text-align: left;\n"
-"color: white;")
-        self.lineEdit_2.raise_()
-        self.lineEdit_2.setStyleSheet("font-size: 14px;\n"
-"font-weight: bolt;\n"
-"text-align: left;\n"
-"color: white;")
-        self.lineEdit_3.raise_()
-        self.lineEdit_3.setStyleSheet("font-size: 14px;\n"
-"font-weight: bolt;\n"
-"text-align: left;\n"
-"color: white;")
-        self.lineEdit_4.raise_()
-        self.lineEdit_4.setStyleSheet("font-size: 14px;\n"
-"font-weight: bolt;\n"
-"text-align: left;\n"
-"color: white;")
         self.horizontalLayoutWidget_2 = QtWidgets.QWidget(TitileBudilnic)
         self.horizontalLayoutWidget_2.setGeometry(QtCore.QRect(30, 190, 211, 31))
         self.horizontalLayoutWidget_2.setObjectName("horizontalLayoutWidget_2")
@@ -91,7 +71,7 @@ class Ui_TitileBudilnic(object):
         self.label_4.setObjectName("label_4")
         self.horizontalLayout_2.addWidget(self.label_4)
         self.pushButton = QtWidgets.QPushButton(TitileBudilnic)
-        self.pushButton.setGeometry(QtCore.QRect(130, 270, 111, 31))
+        self.pushButton.setGeometry(QtCore.QRect(20, 270, 111, 31))
         self.pushButton.setStyleSheet("QPushButton {\n"
 "    background-color: #5dabd9;\n"
 "    color: white;\n"
@@ -108,8 +88,8 @@ class Ui_TitileBudilnic(object):
 "}")
         self.pushButton.setObjectName("pushButton")
         self.label_5 = QtWidgets.QLabel(TitileBudilnic)
-        self.label_5.setGeometry(QtCore.QRect(40, 330, 201, 71))
-        self.label_5.setStyleSheet("font-size: 16px;\n"
+        self.label_5.setGeometry(QtCore.QRect(30, 330, 201, 71))
+        self.label_5.setStyleSheet("font-size: 18px;\n"
 "font-weight: bolt;\n"
 "text-align: left;\n"
 "color: white;")
@@ -117,11 +97,28 @@ class Ui_TitileBudilnic(object):
         self.label_5.setObjectName("label_5")
         self.label_6 = QtWidgets.QLabel(TitileBudilnic)
         self.label_6.setGeometry(QtCore.QRect(10, 150, 251, 41))
-        self.label_6.setStyleSheet("font-size: 28px;\n"
+        self.label_6.setStyleSheet("font-size: 20px;\n"
 "font-weight: bolt;\n"
-"text-align: left;\n"
+"text-align: justify;\n"
 "color: white;")
         self.label_6.setObjectName("label_6")
+        self.pushButton_2 = QtWidgets.QPushButton(TitileBudilnic)
+        self.pushButton_2.setGeometry(QtCore.QRect(130, 270, 111, 31))
+        self.pushButton_2.setStyleSheet("QPushButton {\n"
+"    background-color: #5dabd9;\n"
+"    color: white;\n"
+"    font-size: 14px;\n"
+"    font-weidht: bolt;\n"
+"    border: none;\n"
+"    tex-align: center;\n"
+"}\n"
+"QPushButton:hover {\n"
+"    background-color: #5dd9d9;\n"
+"}\n"
+"QPushButton:pressed {\n"
+"   background-color: #4088db;\n"
+"}")
+        self.pushButton_2.setObjectName("pushButton_2")
 
         self.retranslateUi(TitileBudilnic)
         QtCore.QMetaObject.connectSlotsByName(TitileBudilnic)
@@ -133,6 +130,9 @@ class Ui_TitileBudilnic(object):
         self.label_2.setText(_translate("TitileBudilnic", "Month"))
         self.label_3.setText(_translate("TitileBudilnic", "Hour"))
         self.label_4.setText(_translate("TitileBudilnic", "Minutes"))
-        self.pushButton.setText(_translate("TitileBudilnic", "OK"))
+        self.pushButton.setText(_translate("TitileBudilnic", "Set the time"))
         self.label_6.setText(_translate("TitileBudilnic", "Set the alarm clock"))
+        self.pushButton_2.setText(_translate("TitileBudilnic", "Start"))
+
+
 
