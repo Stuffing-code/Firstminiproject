@@ -25,15 +25,31 @@ class Ui_TitileBudilnic(object):
         self.horizontalLayout_3.setContentsMargins(0, 0, 0, 0)
         self.horizontalLayout_3.setObjectName("horizontalLayout_3")
         self.lineEdit = QtWidgets.QLineEdit(self.horizontalLayoutWidget_3)
+        self.lineEdit.setStyleSheet("font-size: 14px;\n"
+"font-weight: bolt;\n"
+"text-align: left;\n"
+"color: white;")
         self.lineEdit.setObjectName("lineEdit")
         self.horizontalLayout_3.addWidget(self.lineEdit)
         self.lineEdit_2 = QtWidgets.QLineEdit(self.horizontalLayoutWidget_3)
+        self.lineEdit_2.setStyleSheet("font-size: 14px;\n"
+"font-weight: bolt;\n"
+"text-align: left;\n"
+"color: white;")
         self.lineEdit_2.setObjectName("lineEdit_2")
         self.horizontalLayout_3.addWidget(self.lineEdit_2)
         self.lineEdit_3 = QtWidgets.QLineEdit(self.horizontalLayoutWidget_3)
+        self.lineEdit_3.setStyleSheet("font-size: 14px;\n"
+"font-weight: bolt;\n"
+"text-align: left;\n"
+"color: white;")
         self.lineEdit_3.setObjectName("lineEdit_3")
         self.horizontalLayout_3.addWidget(self.lineEdit_3)
         self.lineEdit_4 = QtWidgets.QLineEdit(self.horizontalLayoutWidget_3)
+        self.lineEdit_4.setStyleSheet("font-size: 14px;\n"
+"font-weight: bolt;\n"
+"text-align: left;\n"
+"color: white;")
         self.lineEdit_4.setObjectName("lineEdit_4")
         self.horizontalLayout_3.addWidget(self.lineEdit_4)
         self.horizontalLayoutWidget_2 = QtWidgets.QWidget(TitileBudilnic)
